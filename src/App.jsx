@@ -16,6 +16,7 @@ import YieldPrediction from './pages/YieldPrediction';
 import Irrigation from './pages/Irrigation';
 import Profile from './pages/Profile';
 import Notifications from './pages/Notifications';
+import Weather from './pages/Weather';
 
 const PrivateRoute = ({ children }) => {
     const { isLoggedIn, loading } = useAuth();
@@ -56,6 +57,7 @@ function AppRoutes() {
                 <Route path="irrigation" element={<Irrigation />} />
                 <Route path="notifications" element={<Notifications />} />
                 <Route path="profile" element={<Profile />} />
+                <Route path="/weather" element={<Weather />} />
             </Route>
             <Route path="*" element={<Navigate to="/dashboard" replace />} />
         </Routes>
