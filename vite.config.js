@@ -7,7 +7,7 @@ export default defineConfig({
         port: 5174,
         proxy: {
             '/api': {
-                target: "https://smartfamer-backend.onrender.com/",
+                target: "https://smartfamer-backend.onrender.com",
                 changeOrigin: true,
                 secure: false
             }
