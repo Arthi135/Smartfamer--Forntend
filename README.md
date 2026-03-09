@@ -206,12 +206,3 @@ POST /api/irrigation/suggest
 
 ---
 
-# 👨‍💻 Author
-
-Developed by **Arthi**
-
----
-
-# 📜 License
-
-This project is for **educational and learning purposes**.
